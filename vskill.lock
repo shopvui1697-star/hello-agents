@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "agents": [
+    "claude-code"
+  ],
+  "skills": {
+    "frontend": {
+      "version": "0.1.0",
+      "sha": "06e7b23f48fbce255c60632653daf9b53cad627c5269ff5b48d5c8399cb9c11e",
+      "tier": "VERIFIED",
+      "installedAt": "2026-07-16T04:44:39.101Z",
+      "source": "github:anton-abyzov/vskill#plugin:frontend",
+      "scope": "project",
+      "files": [
+        "figma-connect/SKILL.md",
+        "frontend-design/SKILL.md",
+        "task-skill-announcer/SKILL.md"
+      ]
+    }
+  },
+  "createdAt": "2026-07-16T04:44:39.101Z",
+  "updatedAt": "2026-07-16T04:44:39.101Z"
+}
