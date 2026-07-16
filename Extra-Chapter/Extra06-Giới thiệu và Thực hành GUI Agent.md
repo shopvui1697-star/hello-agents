@@ -45,7 +45,7 @@ Cuối cùng là sự thay đổi về chất trong năng lực suy luận. Năn
 Một hệ thống GUI Agent hoàn chỉnh có thể được phân rã thành ba mô-đun cốt lõi: **Cảm nhận (Perception)** → **Suy luận (Reasoning)** → **Hành động (Action)**. Đây là một hệ thống ra quyết định tự chủ khép kín.
 
 <div align="center">
-  <img src="./images/Extra06-figures/image1.png" alt="GUI Agent 三层架构" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra06-figures/image1.png" alt="GUI Agent 三层架构" width="90%"/>
   <p>Hình 1 Vòng lặp khép kín cảm nhận-suy luận-hành động của GUI Agent</p>
 </div>
 
@@ -83,7 +83,7 @@ Phức tạp hơn là việc thích ứng đa nền tảng. Trên Android, mọi
 Năm 2024-2025 là thời kỳ bùng nổ của GUI Agent, các công ty công nghệ lớn và cơ quan nghiên cứu đua nhau mã nguồn mở framework của mình. Hãy cùng so sánh một cách hệ thống vài dự án tiêu biểu nhất:
 
 <div align="center">
-  <img src="./images/Extra06-figures/image2.png" alt="主流GUI Agent框架对比" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra06-figures/image2.png" alt="主流GUI Agent框架对比" width="90%"/>
   <p>Hình 2 Biểu đồ radar so sánh toàn cảnh các framework GUI Agent chủ đạo</p>
 </div>
 
@@ -141,7 +141,7 @@ Sau khi vào trang, bạn sẽ thấy giao diện thao tác như Hình 3. Để 
 3. **Khu tương tác**: Góc dưới bên trái là khu nhập chỉ thị, quá trình tư duy (Thinking Process) và các bước thao tác của Agent sẽ hiển thị trong hộp thoại phía trên.
 
 <div align="center">
-  <img src="./images/Extra06-figures/image3.png" alt="ModelScope Demo界面" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra06-figures/image3.png" alt="ModelScope Demo界面" width="90%"/>
   <p>Hình 3 Giải thích giao diện Demo trực tuyến Mobile-Agent-v3</p>
 </div>
 
@@ -302,7 +302,7 @@ Nếu hiển thị `device`, chúc mừng bạn, kết nối phần cứng đã 
 Đối với người dùng Windows, có thể còn cần cài trình điều khiển (driver) cho điện thoại. Hầu hết điện thoại các thương hiệu (như Xiaomi, Huawei, OPPO) đều tự động cài driver khi kết nối máy tính, nhưng nếu gặp vấn đề, bạn có thể lên trang chủ tải driver USB tương ứng.
 
 <div align="center">
-  <img src="./images/Extra06-figures/image4.png" alt="手机ADB连接配置步骤" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra06-figures/image4.png" alt="手机ADB连接配置步骤" width="90%"/>
   <p>Hình 4 Quy trình cấu hình kết nối ADB đầy đủ cho điện thoại Android</p>
 </div>
 

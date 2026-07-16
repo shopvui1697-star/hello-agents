@@ -67,7 +67,7 @@ Hãy dùng một phép so sánh để hiểu: MCP giống như cổng USB hoặc
 Đổi mới cốt lõi nhất của Agent Skills là <strong>cơ chế tiết lộ tiệm tiến (Progressive Disclosure)</strong>. Cơ chế này phân chia thông tin kỹ năng thành ba tầng, Agent nạp dần từng bước theo nhu cầu, vừa đảm bảo không bỏ sót chi tiết khi cần thiết, vừa tránh việc nhồi nhét quá nhiều nội dung vào cửa sổ ngữ cảnh cùng một lúc.
 
 <div align="center">
-  <img src="./images/Extra05-figures/image1.png" alt="渐进式披露三层架构" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image1.png" alt="渐进式披露三层架构" width="90%"/>
   <p>Hình 1 Kiến trúc ba tầng của cơ chế tiết lộ tiệm tiến trong Agent Skills</p>
 </div>
 
@@ -128,7 +128,7 @@ Khi Agent xác định rằng cần sử dụng kỹ năng đó, nó mới nạp
 Bây giờ, chúng ta có thể so sánh một cách hệ thống sự khác biệt về bản chất giữa hai công nghệ này.
 
 <div align="center">
-  <img src="./images/Extra05-figures/image2.png" alt="MCP与Agent Skills设计哲学对比" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image2.png" alt="MCP与Agent Skills设计哲学对比" width="90%"/>
   <p>Hình 2 So sánh triết lý thiết kế giữa MCP và Agent Skills</p>
 </div>
 
@@ -202,7 +202,7 @@ Skills nói cho Agent biết "nên" làm gì, tổ chức quy trình rà soát n
 ### Sự khác biệt bản chất trong chiến lược quản lý ngữ cảnh
 
 <div align="center">
-  <img src="./images/Extra05-figures/image3.png" alt="MCP急切加载 vs Skills惰性加载" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image3.png" alt="MCP急切加载 vs Skills惰性加载" width="90%"/>
   <p>Hình 3 So sánh nạp háo hức (eager) của MCP với nạp lười (lazy) của Skills</p>
 </div>
 
@@ -212,7 +212,7 @@ Skills nói cho Agent biết "nên" làm gì, tổ chức quy trình rà soát n
 Sau khi hiểu được sự khác biệt giữa hai công nghệ, chúng ta sẽ nhận ra: <strong>Skills và MCP không phải là quan hệ cạnh tranh, mà là quan hệ bổ trợ cho nhau</strong>. Thực hành tốt nhất là kết hợp cả hai, tạo thành một kiến trúc phân tầng:
 
 <div align="center">
-  <img src="./images/Extra05-figures/image4.png" alt="Skills + MCP 混合架构" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image4.png" alt="Skills + MCP 混合架构" width="90%"/>
   <p>Hình 4 Thiết kế kiến trúc lai Skills + MCP</p>
 </div>
 <strong>Quy trình làm việc điển hình</strong>:
@@ -593,7 +593,7 @@ Khi người dùng đặt câu hỏi cho một Agent hỗ trợ Agent Skills (nh
 > "Phân tích trong nội bộ công ty ai có tiếng nói cao nhất? Cần cân nhắc tổng hợp cấp bậc quản lý, mức lương và thời gian công tác."
 
 <div align="center">
-  <img src="./images/Extra05-figures/image5.png" alt="Agent Skills工作流程" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image5.png" alt="Agent Skills工作流程" width="90%"/>
   <p>Hình 5 Sơ đồ minh họa quy trình làm việc hoàn chỉnh của Agent Skills</p>
 </div>
 
@@ -797,7 +797,7 @@ Agent Skills và MCP đại diện cho hai tầng trừu tượng then chốt tr
 Hai công nghệ này không phải là quan hệ cạnh tranh, mà là quan hệ bổ trợ cho nhau:
 
 <div align="center">
-  <img src="./images/Extra05-figures/image6.png" alt="MCP与Agent Skills总结对比" width="90%"/>
+  <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra05-figures/image6.png" alt="MCP与Agent Skills总结对比" width="90%"/>
   <p>Hình 6 Tổng kết so sánh toàn diện giữa MCP và Agent Skills</p>
 </div>
 

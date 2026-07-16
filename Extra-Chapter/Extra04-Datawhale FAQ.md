@@ -218,8 +218,8 @@ Chỉ dẫn khóa học các nội dung liên quan:
   - Quy trình cấu hình: lấy API_KEY, MODEL_ID, BASE_URL rồi thiết lập trong biến môi trường ở file `.env`.
   - Cách lấy API mô hình của cộng đồng modelscope https://www.modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct
     - Nhấn vào kho mô hình (模型库), tìm mô hình hỗ trợ API-Inference, nhấn vào để vào trang chi tiết mô hình, tìm API-Inference
-    - ![alt text](./images/Extra04-figures/3f1b68eedc9d9e556fbb51358bf49f9d.png)
-    - ![alt text](./images/Extra04-figures/e7dd177f-4867-4af0-bd0e-03771a3a040e.png)
+    - ![alt text](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra04-figures/3f1b68eedc9d9e556fbb51358bf49f9d.png)
+    - ![alt text](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra04-figures/e7dd177f-4867-4af0-bd0e-03771a3a040e.png)
 
 
 <strong>Q18. Khi triển khai luồng công việc ReAct, công cụ tìm kiếm web serpApi này còn có phương án thay thế nào không?</strong>

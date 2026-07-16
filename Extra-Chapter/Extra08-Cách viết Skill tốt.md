@@ -6,7 +6,7 @@
 
 ---
 
-![Mục lục](./images/Extra08-figures/toc.png)
+![Mục lục](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra08-figures/toc.png)
 
 ## I. Skill là gì?
 
@@ -143,7 +143,7 @@ Dưới ràng buộc "súc tích" này, khi viết skill bạn đối mặt vớ
 
 Không phải mọi thông tin đều cần được nạp ngay từ đầu. skill-creator thiết kế một kiến trúc phân tầng ba cấp, cho phép những thông tin khác nhau đi vào ngữ cảnh vào những thời điểm khác nhau:
 
-![Cấu trúc chuẩn của Skill và nạp ba cấp](./images/Extra08-figures/skill-structure.png)
+![Cấu trúc chuẩn của Skill và nạp ba cấp](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra08-figures/skill-structure.png)
 
 - **L1 (metadata)**: luôn nằm trong ngữ cảnh, khoảng 100 từ — AI dựa vào nó để phán đoán có kích hoạt skill này hay không
 - **L2 (SKILL.md body)**: chỉ nạp sau khi được kích hoạt, giữ trong khoảng dưới 5k từ — chỉ dẫn thao tác
@@ -159,7 +159,7 @@ Lấy một ví dụ: để AI viết một bài blog kỹ thuật, mười ngư
 
 Nhưng để AI tạo một file cấu hình YAML thì lại khác. Ví dụ file `openai.yaml` mà skill-creator cần tạo, bên trong có một trường `short_description`, yêu cầu 25-64 ký tự, viết hoa chữ cái đầu, không được có dấu ngoặc kép. AI viết thành 65 ký tự? Không được, giao diện sản phẩm sẽ cắt bớt. Viết thành 24 ký tự? Không được, không qua được kiểm tra (validation). Quên viết hoa chữ cái đầu? Giao diện hiển thị không nhất quán. Loại tác vụ này chỉ lệch một ký tự là có vấn đề, bạn không thể để AI tự do sáng tạo, mà phải dùng script để khóa chặt định dạng — đây chính là **quyền tự do thấp**. Loại tác vụ này gọi là "thao tác dễ vỡ" (fragile operation): không phải nó phức tạp, mà là **làm đúng chỉ có một cách, làm sai có cả trăm cách**.
 
-![Quang phổ quyền tự do](./images/Extra08-figures/freedom-spectrum.png)
+![Quang phổ quyền tự do](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra08-figures/freedom-spectrum.png)
 
 Điều này giải quyết vấn đề "làm sao cân bằng giữa tính linh hoạt của AI và độ tin cậy của output".
 
@@ -167,11 +167,11 @@ Nhưng để AI tạo một file cấu hình YAML thì lại khác. Ví dụ fil
 
 Có nguyên tắc và kiến trúc rồi, cuối cùng skill-creator đưa ra một quy trình tạo skill gồm sáu bước, biến tư duy thiết kế thành các bước thao tác có thể thực thi:
 
-![Quy trình tạo sáu bước](./images/Extra08-figures/creation-flow.png)
+![Quy trình tạo sáu bước](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra08-figures/creation-flow.png)
 
 Hiểu → Lập kế hoạch → Khởi tạo → Chỉnh sửa → Kiểm tra → Lặp lại (iterate). Trong đó script xuyên suốt cả quy trình, tạo thành một chuỗi đảm bảo chất lượng mang tính xác định (deterministic):
 
-![Mối quan hệ tương tác giữa các file](./images/Extra08-figures/file-interaction.png)
+![Mối quan hệ tương tác giữa các file](https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/Extra-Chapter/images/Extra08-figures/file-interaction.png)
 
 ### Tổng quan khung
 
